@@ -1,0 +1,27 @@
+@media screen and (min-width: 481px) and (max-width: 991.98px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {}
+
+@media screen and (max-width: 991.98px) {
+    .header {
+        padding: 15px 0;
+
+        &__wrapper {
+            justify-content: space-between;
+        }
+
+        &__navigation {
+            display: none;
+        }
+
+        &__burger {
+            display: flex;
+        }
+
+        &__popup ul li a {
+            font-size: 1em;
+        }
+    }
+}
+
+@media screen and (max-width: 767.98px) {}

@@ -1,0 +1,24 @@
+$black-color: #000000;
+$red-color: #D81E05;
+
+%link-props {
+    color: $black-color;
+    font-size: 1.25em;
+    text-decoration: none;
+    transition: all .3s;
+
+    &:hover {
+        color: $red-color;
+    }
+}
+
+%center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import 'styles/total.scss';
+@import 'styles/pc.scss';
+@import 'styles/tablet.scss';
+@import 'styles/mobile.scss';

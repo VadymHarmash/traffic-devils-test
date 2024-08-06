@@ -1,0 +1,8 @@
+@media screen and ((min-width: 320px) and (max-width: 480.98px)),
+(max-width: 319.98px) {
+    .header {
+        &__popup__content {
+            width: 90%;
+        }
+    }
+}
