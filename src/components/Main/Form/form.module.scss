@@ -1,0 +1,19 @@
+$black-color: #000000;
+$red-color: #D81E05;
+$dark-red-color: #C22821;
+$blue-color: #0E69AF;
+$white-color: #FFFFFF;
+$shadow-color: #4A4A4AD1;
+$grey-color: #D9D9D9;
+$silver-color: #F7F7F7;
+
+%center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import 'styles/total.scss';
+@import 'styles/pc.scss';
+@import 'styles/tablet.scss';
+@import 'styles/mobile.scss';
