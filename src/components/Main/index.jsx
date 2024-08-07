@@ -10,8 +10,8 @@ export default function Main() {
         <main>
             <Form />
             <Services />
-            {/* <Donnet />
-            <Slider />
+            <Donnet />
+            {/* <Slider />
             <Sponsors /> */}
         </main>
     )

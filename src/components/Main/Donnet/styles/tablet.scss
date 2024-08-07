@@ -2,6 +2,53 @@
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {}
 
-@media screen and (max-width: 991.98px) {}
+@media screen and (max-width: 991.98px) {
+    .donnet {
+        &__wrapper {
+            padding: 70px 0 52px;
+        }
+
+        &__top {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            img {
+                width: 250px;
+                height: 250px;
+                top: 45px;
+                left: calc(50% - 125px);
+            }
+        }
+
+        &__text {
+            width: 100%;
+            padding: 46px 35px 9px;
+            margin-top: 200px;
+        }
+
+        &__bottom {
+            flex-direction: column;
+        }
+
+        h2 {
+            font-size: 2.375em;
+            margin-bottom: 20px;
+        }
+
+        &__debts {
+            padding: 100px 40px 40px 20px;
+            width: 100%;
+            margin-bottom: 42px;
+            button{
+                font-size: 1em;
+            }
+        }
+
+        &__stats {
+            text-align: center;
+        }
+    }
+}
 
 @media screen and (max-width: 767.98px) {}

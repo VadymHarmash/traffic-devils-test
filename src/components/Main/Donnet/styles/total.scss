@@ -1,0 +1,103 @@
+.donnet {
+    background: $red-bg-color;
+    position: relative;
+
+    &__top {
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            position: absolute;
+            z-index: 3;
+        }
+    }
+
+    &__text {
+        position: relative;
+        background: url(../../../../assets/images/main/donnet/bg.png) top no-repeat;
+        background-size: cover;
+        font-weight: 600;
+        color: $white-color;
+        font-size: 1.25em;
+        line-height: 24px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #CC4238C4;
+            z-index: -1;
+        }
+
+        z-index: 2;
+        color: $white-color;
+    }
+
+    h2 {
+        color: $white-color;
+        font-weight: 700;
+        margin: 25px 0 40px;
+        text-align: center;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__debts {
+        box-shadow: 0px 3.26px 10.35px 0px #00000008;
+        background-color: $white-color;
+        border-radius: 20px;
+        @extend %center;
+        flex-direction: column;
+
+        &__sliders {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        button {
+            @extend %button-styles;
+            @extend %center;
+            gap: 15px;
+            background: $red-btn-color;
+            margin-top: 50px;
+            padding: 20px 0;
+            font-size: 1.5em;
+            font-family: "Montserrat";
+            border-radius: 100px;
+
+            span {
+                font-size: 1.875em;
+            }
+        }
+    }
+
+    &__stats {
+        color: $white-color;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        &__item {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            h3 {
+                font-size: 1em;
+            }
+
+            span {
+                font-size: 2.625em;
+            }
+        }
+    }
+}

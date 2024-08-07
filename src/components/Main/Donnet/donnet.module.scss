@@ -1,3 +1,15 @@
+$red-bg-color: linear-gradient(180deg, #D81E05 0%, #490900 100%);
+$red-btn-color: linear-gradient(90deg, #C91C04 0%, #D81E05 33.33%, #4B0900 66.67%, #4B0900 100%);
+$red-color: #D81E05;
+$white-color: #FFFFFF;
+
+%center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import '../components.module.scss';
 @import 'styles/total.scss';
 @import 'styles/pc.scss';
 @import 'styles/tablet.scss';
