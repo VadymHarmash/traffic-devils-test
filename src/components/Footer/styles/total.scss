@@ -1,0 +1,28 @@
+.footer {
+    border-top: 1px $light-red-color solid;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__routes {
+        display: flex;
+        flex-direction: column;
+        a {
+            @extend %link-styles;
+        }
+
+        &__top {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__bottom {
+            display: flex;
+            justify-content: space-between;
+            align-self: flex-end;
+        }
+    }
+}

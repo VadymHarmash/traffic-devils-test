@@ -1,0 +1,24 @@
+@media screen and (min-width: 992px) {
+    .footer {
+        padding: 36px 0 68px;
+
+        &__routes {
+            gap: 20px;
+            a {
+                font-size: 0.75em;
+            }
+    
+            &__top {
+                gap: 13px;
+            }
+    
+            &__bottom {
+                gap: 13px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1250.01px) and (max-width: 1440px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1249.98px) {}

@@ -1,7 +1,6 @@
-$silver-color: #EBEBEB;
-$darkblue-color: #00062B;
+$light-red-color: #CC4238;
 
-@import '../../components.module.scss';
+@import '../components.module.scss';
 @import 'styles/total.scss';
 @import 'styles/pc.scss';
 @import 'styles/tablet.scss';

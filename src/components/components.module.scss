@@ -1,3 +1,7 @@
+$black-color: #000000;
+$red-color: #D81E05;
+$white-color: #FFFFFF;
+
 %button-styles {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -14,4 +18,21 @@
         background-color: $white-color;
         color: $red-color;
     }
+}
+
+%link-styles {
+    color: $black-color;
+    font-size: 1.25em;
+    text-decoration: none;
+    transition: all .3s;
+
+    &:hover {
+        color: $red-color;
+    }
+}
+
+%center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,9 +1,4 @@
-%center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+@import '../../components.module.scss';
 @import 'styles/total.scss';
 @import 'styles/pc.scss';
 @import 'styles/tablet.scss';

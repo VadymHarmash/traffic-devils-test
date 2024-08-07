@@ -1,16 +1,8 @@
 $red-color: #EE1B25;
-$white-color: #FFFFFF;
 $dark-grey-color: #242424;
-$black-color: #000000;
 $black-op-color: #000000CC;
 
-%center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@import '../components.module.scss';
+@import '../../components.module.scss';
 @import 'styles/total.scss';
 @import 'styles/pc.scss';
 @import 'styles/tablet.scss';
