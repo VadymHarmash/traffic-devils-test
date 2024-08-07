@@ -12,7 +12,7 @@ export default function Main() {
             <Services />
             <Donnet />
             <Slider />
-            {/* <Sponsors /> */}
+            <Sponsors />
         </main>
     )
 }

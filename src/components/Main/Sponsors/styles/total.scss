@@ -1,0 +1,15 @@
+.sponsors{
+    &__wrapper{
+        @extend %center;
+        flex-direction: column;
+    }
+
+    &__list{
+        @extend %center;
+        flex-wrap: wrap;
+        &__item{
+            @extend %center;
+            width: 30%;
+        }
+    }
+}

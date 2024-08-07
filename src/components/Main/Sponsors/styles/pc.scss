@@ -1,4 +1,17 @@
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+    .sponsors{
+        &__wrapper{
+            padding: 72px 0 39px;
+            gap: 60px;
+        }
+    
+        &__list{
+            width: 80%;
+            row-gap: 30px;
+            column-gap: 38px;
+        }
+    }
+}
 
 @media screen and (min-width: 1250.01px) and (max-width: 1440px) {}
 
