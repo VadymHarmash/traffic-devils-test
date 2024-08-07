@@ -11,8 +11,8 @@ export default function Main() {
             <Form />
             <Services />
             <Donnet />
-            {/* <Slider />
-            <Sponsors /> */}
+            <Slider />
+            {/* <Sponsors /> */}
         </main>
     )
 }
