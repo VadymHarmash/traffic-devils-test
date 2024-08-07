@@ -29,10 +29,25 @@
         border-radius: 15px;
         grid-area: 1 / 2 / 2 / 3;
         justify-self: end;
+        position: relative;
 
         &__inputs {
             display: flex;
             flex-direction: column;
+        }
+
+        &__inputWrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .error {
+                position: absolute;
+                bottom: calc(100% - 15px);
+                left: 5px;
+                color: $red-color;
+                font-size: 0.75em;
+            }
 
             input {
                 border: none;
@@ -53,11 +68,13 @@
         display: flex;
         flex-direction: column;
         gap: 8px;
-        h2{
+
+        h2 {
             color: $dark-red-color;
             font-weight: 400;
         }
-        p{
+
+        p {
             color: $blue-color;
         }
     }

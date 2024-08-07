@@ -20,17 +20,9 @@
             &__inputs {
                 gap: 11px;
 
-                &>div {
-                    width: 100%;
-
-                    &>div:last-child {
-                        width: 100%;
-                    }
-                }
-
                 input {
                     font-size: 1em;
-                    width: 100%;
+                    min-width: 300px
                 }
             }
 

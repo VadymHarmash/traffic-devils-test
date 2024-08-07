@@ -39,16 +39,9 @@
                 gap: 11px;
 
                 input {
+                    border: none;
                     background-color: $silver-color;
                     width: 100%;
-                }
-
-                &>div {
-                    width: 100%;
-
-                    &>div:last-child {
-                        width: 100%;
-                    }
                 }
             }
         }

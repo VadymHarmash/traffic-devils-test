@@ -8,10 +8,18 @@
         }
 
         &__window {
-            width: 100%;
+            max-width: 270px;
+
 
             &__inputs {
                 align-items: center;
+            }
+        }
+
+        &__inputWrapper {
+            input {
+                min-width: none;
+                max-width: 250px;
             }
         }
     }
