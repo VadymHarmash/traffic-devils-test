@@ -35,30 +35,16 @@
             flex-direction: column;
 
             input {
+                border: none;
                 text-transform: uppercase;
                 padding: 12px;
                 border-radius: 4px;
                 letter-spacing: 1px;
-                width: 300px;
             }
         }
 
         button {
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            width: 100%;
-            padding: 12px 0;
-            background-color: $red-color;
-            color: $white-color;
-            border: 2px $red-color solid;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: all .3s;
-
-            &:hover {
-                background-color: $white-color;
-                color: $red-color;
-            }
+            @extend %button-styles;
         }
     }
 
@@ -69,6 +55,7 @@
         gap: 8px;
         h2{
             color: $dark-red-color;
+            font-weight: 400;
         }
         p{
             color: $blue-color;
